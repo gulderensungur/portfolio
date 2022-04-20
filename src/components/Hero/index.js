@@ -7,7 +7,7 @@ function Hero() {
     <section id="hero" className="flex flex-col align-center ">
       <div className="profile-wrapper flex flex-col align-center">
         <div className="profile-image">
-          <img className="avatar" src={avatar} alt="profile image" />
+          <img className="avatar" src={avatar} alt="profile" />
         </div>
         <div className="profile-text">
           <p>Hi, I&apos;m Gül 🚀</p>
