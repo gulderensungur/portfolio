@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(219, 219, 219);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 24px;
+}
+
+.footer--social-list {
+  display: flex;
+  align-items: center;
+}
+
+.social--list-item {
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 24px;
+}

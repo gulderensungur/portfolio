@@ -1,0 +1,84 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "liveUrl": "https://gulderensungur.github.io/time-tracking-dashborad/",
+      "thumbnail": "/projectImages/time-tracking-dashboard.png",
+      "name": "Time Tracking Dashboard",
+      "description": "Users able to switches between viewing Daily, Weekly, and Monthly stats.",
+      "techStacks": ["CSS", "HTML", "JavaScript"]
+    },
+    {
+      "id": 2,
+      "liveUrl": "https://gulderensungur.github.io/url-shortening/",
+      "thumbnail": "/projectImages/url-shortening.jpg",
+      "name": "URL Shortening",
+      "description": "It is integrated with the shortcode API to generate shortened URLs.",
+      "techStacks": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 3,
+      "liveUrl": "https://gulderensungur.github.io/advice-generator/",
+      "thumbnail": "/projectImages/advice-generator.jpg",
+      "name": "Advice Generator",
+      "description": "Generate a new piece of advice by clicking the dice icon",
+      "techStacks": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 4,
+      "liveUrl": "https://gulderensungur.github.io/interactive-rating-component/",
+      "thumbnail": "/projectImages/interactive-rating-component.jpg",
+      "name": "Interactive Rating Component",
+      "description": "Users can submit a rating and see the \"Thank you\" card state after submitting a rating.",
+      "techStacks": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 5,
+      "liveUrl": "https://gulderensungur.github.io/github-user/",
+      "thumbnail": "/projectImages/github-users.png",
+      "name": "Github User Search App",
+      "description": "Users can search for GitHub users by their username and see relevant user information based on their search.",
+      "techStacks": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 6,
+      "liveUrl": "https://gulderensungur.github.io/sunnyside/",
+      "thumbnail": "/projectImages/sunny-side.jpg",
+      "name": "Sunnyside Agency Landing Page",
+      "description": "Landing Page",
+      "techStacks": ["HTML", "CSS"]
+    },
+    {
+      "id": 7,
+      "liveUrl": "https://gulderensungur.github.io/time-now/",
+      "thumbnail": "/projectImages/time-now.png",
+      "name": "Time Now Landing Page",
+      "description": "Landing Page",
+      "techStacks": ["HTML", "CSS"]
+    },
+    {
+      "id": 8,
+      "liveUrl": "https://gulderensungur.github.io/playstation-page/",
+      "thumbnail": "/projectImages/playstation-page.png",
+      "name": "Playstation Landing Page",
+      "description": "Landing Page",
+      "techStacks": ["HTML", "CSS"]
+    },
+    {
+      "id": 9,
+      "liveUrl": "https://gulderensungur.github.io/windbnb/",
+      "thumbnail": "/projectImages/windbnb.png",
+      "name": "Windbnb Landing Page",
+      "description": "Landing Page",
+      "techStacks": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "id": 10,
+      "liveUrl": "https://gulderensungur.github.io/tip-calculator/",
+      "thumbnail": "/projectImages/tip-calculator.png",
+      "name": "Tip Calculator App",
+      "description": "Users can calculate the correct tip and total cost of the bill per person",
+      "techStacks": ["HTML", "CSS", "JavaScript"]
+    }
+  ]
+}

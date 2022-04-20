@@ -1,0 +1,58 @@
+:root {
+  --black: #333;
+  --white: #fafafa;
+  --orange: #ffc39d;
+  --orange-dark: #ff9451;
+  --orange-darkest: #a15f35;
+}
+html {
+  scroll-behavior: smooth;
+}
+html,
+body,
+button {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+.App {
+  display: grid;
+  grid-template-columns: 1fr min(768px, 100%) 1fr;
+}
+
+.App > * {
+  grid-column: 2;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}

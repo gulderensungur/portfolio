@@ -1,0 +1,63 @@
+#hero {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  text-align: center;
+}
+.profile-image {
+  height: 128px;
+  width: 128px;
+  background-color: var(--orange);
+  border-radius: 9999px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.profile-text {
+  margin-top: 24px;
+  margin-bottom: 14px;
+}
+.profile-text p {
+  font-size: 36px;
+}
+.profile-slogan h1 {
+  font-size: 72px;
+}
+.profile-slogan p {
+  width: 75%;
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.profile-slogan button {
+  background-color: var(--orange-dark);
+  padding: 18px 24px;
+  border-radius: 9999px;
+  outline: none;
+  border: 0;
+  color: var(--white);
+  text-transform: uppercase;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.profile-slogan button span {
+  position: relative;
+  z-index: 1;
+}
+.profile-slogan button:after {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: var(--black);
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform-origin: 0;
+  transform: scaleX(0);
+  opacity: 0.2;
+  transition: transform 300ms ease;
+}
+.profile-slogan button:hover::after {
+  transform: scaleX(100%);
+}

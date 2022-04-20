@@ -1,0 +1,47 @@
+.resume-section {
+  margin-bottom: 48px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.resume--list-header {
+  font-size: 32px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.resume--list-header::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 75%;
+  height: 50%;
+  background-color: rgba(249, 177, 130, 0.37);
+  top: 50%;
+  left: 0;
+  z-index: -1;
+  transform: translateY(-50%);
+}
+
+.resume--list-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.resume--simple-list-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.resume--list-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume--list-subtitle {
+  margin-top: 4px;
+}
+
+.resume--list-interval {
+  margin-top: 8px;
+  font-weight: 500;
+}

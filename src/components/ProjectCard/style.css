@@ -1,0 +1,53 @@
+.card:nth-child(2) {
+  margin-top: 64px;
+}
+
+.card:nth-child(odd) {
+  margin-top: -64px;
+}
+
+.card:nth-child(1) {
+  margin-top: 0;
+}
+
+.card-image {
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image img {
+  height: 100%;
+  object-fit: cover;
+}
+.card-info {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.card-info h3 {
+  font-size: 20px;
+}
+
+.card-info p {
+  margin-top: 4px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.tech-stacks {
+  margin-top: 4px;
+}
+
+.tech-stack-item {
+  display: inline-block;
+  background-color: var(--orange);
+  color: var(--orange-darkest);
+  padding: 8px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.tech-stack-item:not(:first-of-type) {
+  margin-left: 8px;
+}
