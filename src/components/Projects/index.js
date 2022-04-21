@@ -12,7 +12,7 @@ const Projects = () => {
           name={project.name}
           description={project.description}
           techStacks={project.techStacks}
-          thumbnail={project.thumbnail}
+          thumbnail={`${process.env.PUBLIC_URL}${project.thumbnail}`}
           liveUrl={project.liveUrl}
         />
       ))}
