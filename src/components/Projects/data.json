@@ -3,7 +3,7 @@
     {
       "id": 1,
       "liveUrl": "https://gulderensungur.github.io/time-tracking-dashborad/",
-      "thumbnail": "/projectImages/time-tracking-dashboard.png",
+      "thumbnail": "![](/projectImages/time-tracking-dashboard.png)",
       "name": "Time Tracking Dashboard",
       "description": "Users able to switches between viewing Daily, Weekly, and Monthly stats.",
       "techStacks": ["CSS", "HTML", "JavaScript"]
