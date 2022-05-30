@@ -14,10 +14,10 @@ function Hero() {
         </div>
       </div>
       <div className="profile-slogan flex flex-col align-center">
-        <h1>Building digital products, brands, and experience</h1>
+        <h1>I build things for the web</h1>
         <p>
-          added 2 packages from 3 contributors, removed 3 packages, updated 2
-          packages and audited 1369 packages in 6.24s
+          I am a junior front-end developer eager to learn, keen on UI
+          development and coding.
         </p>
         <button>
           <span>Connect with me</span>
